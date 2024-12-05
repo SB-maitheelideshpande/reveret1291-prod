@@ -40,7 +40,7 @@ paths:
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
-        id: zuho2s7cj7grc
+        id: gj8l4gd9h2o75
     patch:
       summary: Update User Information
       operationId: patch-users-userId
@@ -151,6 +151,21 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: pjwq78l4xdgy2
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-user
+      x-stoplight:
+        id: g19dv2jtjm44p
+  /testing:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-testing
+      x-stoplight:
+        id: pjwq78l4xdgy2
 components:
   schemas:
     User:
@@ -194,7 +209,7 @@ components:
           type: boolean
           description: Set to true if the user's email has been verified.
           x-stoplight:
-            id: toyyiqhboht8u
+            id: gj8l4gd9h2o75
         createDate:
           type: string
           format: date
