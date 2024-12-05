@@ -1,6 +1,6 @@
 openapi: 3.1.0
 x-stoplight:
-  id: gj8l4gd9h2o75
+  id: tltd8qlqw2l0e
 info:
   title: test1-3.1
   version: '1.0'
@@ -94,7 +94,7 @@ paths:
                   dateOfBirth: '1985-10-02'
         description: Patch user properties to update.
       x-stoplight:
-        id: r6ihvb3fu24vt
+        id: gaew6deybu5c6
   /user:
     post:
       summary: Create New User
